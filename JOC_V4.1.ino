@@ -479,9 +479,9 @@ class brickBreaker {
         ball.setBallDirection (3);
       //else a life is lost
       else {
-        lives --;
+        lives--;
         //if there are lives left, game continues
-        if (lives > 1) {
+        if (lives > 0) {
           lc.setLed (0, 7, mid - 1, false);
           lc.setLed (0, 7, mid, false);
           lc.setLed (0, 7, mid + 1, false);
@@ -597,4 +597,3 @@ void loop() {
   }
   game->mainMenu();
 }
-
