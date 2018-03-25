@@ -28,3 +28,5 @@ boardRicochet() este apelată în momentul în care bila ajunge pe penultimul r�
 verifica dacă are sau nu loc coliziunea cu platforma, dar și pregătirea pentru generarea unui nou nivel în cazul în care cel curent a fost
 terminat sau afișarea mesajului de final în cazul terminării ultimului nivel. Funcția levelGenerate se ocupă de dispunerea cărămizilor în 
 cadrul nivelelor 2 și 3.
+
+O previzualizare a gameplay-ului poate fi observata aici: https://drive.google.com/open?id=1mICFTWVoMr5EOT_QVl5ZwKU9qxO4n0pY
